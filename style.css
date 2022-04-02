@@ -165,15 +165,32 @@ form button{
 }
 
 .perguntas-child{
-    background-color: aquamarine;
     height: auto;
-    width: 800px;
+    width: 850px;
     margin: auto;
     margin-bottom: 40px;
 }
+.perguntas{    
+    margin-bottom: 10px;
+    background-color: #222;
+    font-size: 26px;
+}
+.perguntas button{
+    width: 100%;
+    background-color: #222;
+    border: none;
+    text-align: start;
+    font-size: 26px;
+    border-bottom: 2px solid black;
+    padding: 15px 0 15px 30px;
+}
 
+.perguntas button:hover{cursor: pointer;}
 
-
+.perguntas p{
+    display: none;
+    padding: 15px 30px 15px 30px;
+}
 #main-perguntas form{margin-bottom: 80px;}
 
 
