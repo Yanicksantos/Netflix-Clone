@@ -38,7 +38,6 @@ header img{
     border: none;
     box-shadow: 1px 1px black;
     font-size: 16px;
-    cursor: pointer;
 }
 
 #idioma{
@@ -60,7 +59,6 @@ main{
     margin: auto;
     text-align: center;
     padding-top: 150px;
-  
 }
 .container h1{
     font-size: 50px;
@@ -97,13 +95,13 @@ main{
 }
 form{
     display: flex;
-    width: 600px;
+    width: 700px;
     justify-content: center;
     margin: auto;
 }
 
 form input{
-    width:380px;
+    width:480px;
     height: 60px;
     padding-left: 10px;
     color: black;
@@ -112,7 +110,7 @@ form input{
 }
 
 form button{
-    width:150px;
+    width:180px;
     height: 60px;
     background-color: red;
     font-size: 26px;
@@ -132,21 +130,53 @@ form button{
    
 }
 .destaques img{
-    width: 500px;
+    width: 570px;
 }
 
 .destaques div{
     width: 670px;
     margin: auto;
-    margin-left: 50px ;
+    margin-left: 30px ;
 }
 
 .destaques h3{
     width: 550px;
     font-size: 50px;
 }
+
 .destaques p{
     width: 570px;
     font-size: 26px;
 }
 
+#main-perguntas{border-bottom: 8px solid #222;}
+
+#main-perguntas h3{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+#main-perguntas #segundop{
+    text-align: center;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+.perguntas-child{
+    background-color: aquamarine;
+    height: auto;
+    width: 800px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+
+
+#main-perguntas form{margin-bottom: 80px;}
+
+
+footer{
+    height: 200px;
+}
