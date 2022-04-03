@@ -1,4 +1,4 @@
-var verificadora;
+let verificadora;
 document.querySelector(".netflix").style.display="none"
 function Netflix(){
     verificadora = "netflix";
