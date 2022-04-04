@@ -1,4 +1,16 @@
 let verificadora;
+
+document.querySelector(".language_options").style.display="none"
+function Language(){
+
+    if(document.querySelector(".language_options").style.display =="none"){
+        document.querySelector(".language_options").style.display="block"
+    }
+    else{
+        document.querySelector(".language_options").style.display="none"
+    }
+}
+
 document.querySelector(".netflix").style.display="none"
 function Netflix(){
     verificadora = "netflix";
@@ -120,4 +132,15 @@ function Fechar(ver){
         document.querySelector(".assistir").style.display="none";
     }
 
+}
+
+document.querySelector(".footer_language_options").style.display="none"
+function LanguageFooter(){
+
+    if(document.querySelector(".footer_language_options").style.display =="none"){
+        document.querySelector(".footer_language_options").style.display="block"
+    }
+    else{
+        document.querySelector(".footer_language_options").style.display="none"
+    }
 }
