@@ -24,7 +24,7 @@ nav{display: flex;}
 
 .main_language{
     display: flex;
-    border: 2px solid white;
+    border: 1px solid white;
     width: 120px;
     height: 40px;
     padding: 0 5px 0 5px;
@@ -272,8 +272,8 @@ footer p{
 }
 
 .footer_language{
-   
     margin-bottom: 10px;
+    width: 120px;
 }
 .footer_language .language_options{ 
     display: none;

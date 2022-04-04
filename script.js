@@ -136,7 +136,6 @@ function Fechar(ver){
 
 document.querySelector(".footer_language_options").style.display="none"
 function LanguageFooter(){
-
     if(document.querySelector(".footer_language_options").style.display =="none"){
         document.querySelector(".footer_language_options").style.display="block"
     }
