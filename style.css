@@ -92,6 +92,7 @@ main{
     height: 370px;
     text-align: center;
     z-index: 1;
+
 }
 
 .container h1{
@@ -143,13 +144,29 @@ form input{
     border: 0;
 }
 
-form button{
-    width:180px;
-    height: 60px;
+
+form .button{
+    display: flex;
     background-color: red;
-    font-size: 26px;
-    border: 0;
+    width: 170px;
+    height: 60px;
+    justify-content: center;
     cursor: pointer;
+}
+
+.button button{
+    display: block;
+    height: 100%;
+    font-size: 26px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.button img{
+    display: block;
+    width: 21px;
+    margin-left: 8px;
 }
 
 #main-child{
@@ -207,26 +224,46 @@ form button{
 }
 .perguntas{    
     margin-bottom: 10px;
-    background-color: #222;
     font-size: 26px;
-}
-.perguntas button{
+    background-color: #222;
     width: 100%;
-    background-color: #222;
-    border: none;
-    text-align: start;
-    font-size: 26px;
-    border-bottom: 2px solid black;
-    padding: 15px 0 15px 30px;
 }
 
-.perguntas button:hover{cursor: pointer;}
+.button_perguntas{
+    display: flex;
+    justify-content: space-between;
+    font-size: 26px;
+    border-bottom: 2px solid black;
+    padding: 15px 15px 15px 30px;
+}
+
+.button_perguntas img{
+    display: block;
+    width: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.perguntas .button_perguntas:hover{cursor: pointer;}
+
 
 .perguntas p{
     display: none;
     padding: 15px 30px 15px 30px;
 }
+
+
+
+
+
+
+
+
+
+
+
 #main-perguntas form{margin-bottom: 80px;}
+
 #main-perguntas button:hover{cursor: pointer;}
 
 
