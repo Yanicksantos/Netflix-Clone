@@ -30,7 +30,7 @@ header{
     position: absolute;
     display: flex;
     width: 100%;
-    height: auto;
+    max-height: 80px;
     justify-content: space-between;
     z-index: 1;
 }
@@ -47,6 +47,8 @@ header img{
     margin-top: 35px;
 }
 
+
+
 .main_language{
     display: flex;
     border: 1px solid white;
@@ -56,7 +58,29 @@ header img{
     border-radius: 5px;
 }
 
-.language{max-width: 120px; max-height: 50px; margin-right: 25px;}
+.language{
+    max-width: 120px; 
+    max-height: 50px; 
+    margin-right: 25px;
+}
+
+.language_options{
+    overflow-y: hidden;
+   
+    
+   
+}
+
+.language_options button{
+    display: block; width: 100%; 
+    padding-left: 20px;
+    border: none; 
+    background-color: #757575;
+    text-align: start;  
+    cursor: pointer;
+}
+
+.language_options button:hover{letter-spacing: 1px;}
 
 .main_language svg{margin-top: 10px;}
 
@@ -409,8 +433,9 @@ footer p{
     background-color: transparent;
     border: 1px solid white;
     height: 50px;
-    background-color: black;
 }
+.footer_language .language_options button{background-color: black;}
+.footer_language .language_options button:hover{letter-spacing: 1px;}
 
 footer .netflixbrasil{
     margin-top: 100px;
